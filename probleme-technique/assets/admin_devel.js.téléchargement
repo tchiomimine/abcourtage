@@ -1,0 +1,76 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function($) {
+
+/**
+ * jQuery debugging helper.
+ *
+ * Invented for Dreditor.
+ *
+ * @usage
+ *   $.debug(var [, name]);
+ *   $variable.debug( [name] );
+ */
+jQuery.extend({
+  debug: function () {
+    // Setup debug storage in global window. We want to look into it.
+    window.debug = window.debug || [];
+
+    args = jQuery.makeArray(arguments);
+    // Determine data source; this is an object for $variable.debug().
+    // Also determine the identifier to store data with.
+    if (typeof this == 'object') {
+      var name = (args.length ? args[0] : window.debug.length);
+      var data = this;
+    }
+    else {
+      var name = (args.length > 1 ? args.pop() : window.debug.length);
+      var data = args[0];
+    }
+    // Store data.
+    window.debug[name] = data;
+    // Dump data into Firebug console.
+    if (typeof console != 'undefined') {
+      console.log(name, data);
+    }
+    return this;
+  }
+});
+// @todo Is this the right way?
+jQuery.fn.debug = jQuery.debug;
+
+})(jQuery);
+
+
+}
+/*
+     FILE ARCHIVED ON 07:41:16 Oct 13, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:11:08 Jul 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 647.349 (3)
+  exclusion.robots.policy: 0.202
+  exclusion.robots: 0.218
+  PetaboxLoader3.datanode: 251.27 (4)
+  LoadShardBlock: 350.277 (3)
+  CDXLines.iter: 22.662 (3)
+  load_resource: 580.875
+  captures_list: 379.169
+  esindex: 0.011
+  RedisCDXSource: 1.663
+*/

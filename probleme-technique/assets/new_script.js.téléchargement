@@ -1,0 +1,126 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function($) {
+  $(function() {
+
+    $('#burger-menu').click(function() {
+      $('nav ul.nav-list:hidden').slideToggle(600);
+      this.classList.toggle('active');
+    });
+
+    $('.nav-mobile').click(function () {
+      this.classList.toggle('active');
+      if(!$('.nav-mobile').hasClass('active')) {
+        $('nav ul.nav-list:visible').slideUp();
+      }
+    });
+  });
+
+  $("footer .content-footer nav > ul:not(:first-child) > li > a").click(function(e) {
+    e.preventDefault();
+  });
+
+  $("ul.footer-propos > li > a").click(function(event) {
+    if ($(window).width() > '768') {
+      event.stopPropagation();
+    }
+    else {
+      $("ul.footer-propos li ul").stop().slideToggle();
+      $("ul.footer-propos li a").toggleClass('flip-arrow-footer');
+    }
+  });
+  $("ul.footer-news > li > a").click(function(event) {
+    if ($(window).width() > '768') {
+      event.stopPropagation();
+    }
+    else {
+      $("ul.footer-news li ul").stop().slideToggle();
+      $("ul.footer-news li a").toggleClass('flip-arrow-footer');
+    }
+  });
+  $("ul.footer-ab-vous > li > a").click(function(event) {
+    if ($(window).width() > '768') {
+      event.stopPropagation();
+    }
+    else {
+      $("ul.footer-ab-vous li ul").stop().slideToggle();
+      $("ul.footer-ab-vous li a").toggleClass('flip-arrow-footer');
+    }
+  });
+
+  $('.container-conseils').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    mobileFirst: true,
+    dots: true,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      }
+    ]
+});
+
+  let productPageBlocksLength = $('.section-box');
+
+  if(Object.entries(productPageBlocksLength).length !== 0) {
+    $('.section-box').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      mobileFirst: true,
+      dots: true,
+      arrows: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: 'unslick'
+        },
+        {
+          breakpoint: 425,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        }
+      ]
+    });
+  }
+
+})(jQuery);
+
+}
+/*
+     FILE ARCHIVED ON 07:41:25 Oct 13, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:11:08 Jul 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 74.015
+  exclusion.robots: 0.16
+  exclusion.robots.policy: 0.15
+  RedisCDXSource: 0.689
+  esindex: 0.011
+  LoadShardBlock: 37.862 (3)
+  PetaboxLoader3.datanode: 58.56 (4)
+  CDXLines.iter: 31.31 (3)
+  load_resource: 80.003
+  PetaboxLoader3.resolve: 35.681
+*/
