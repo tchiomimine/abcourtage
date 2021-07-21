@@ -1,0 +1,615 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+var tc_vars;
+var steps;
+var cookieTagCo;
+var page_cat1;
+var page_cat2;
+var page_name;
+var conversion_funnel_name;
+var conversion_funnel_step;
+var conversion_grc;
+var conversion_numero;
+var conversion_email;
+var conversion_telephone;
+var conversion_rac;
+var conversion_situation_immo;
+
+
+    if (window.location.href.indexOf("taux-immobiliers-dans-votre-region") !== -1) {
+
+        staticTag("simulateurs", "simulateur", "", "simulateur taux", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("calculez-mensualite-votre-pret-immobilier") !== -1) {
+
+        staticTag("simulateurs", "simulateur", "", "simulateur mensualites", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("calculez-votre-capacite-emprunt-immobilier") !== -1) {
+
+        staticTag("simulateurs", "simulateur", "", "simulateur capacite emprunt", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("visualisez-votre-tableau-amortissement") !== -1) {
+
+        staticTag("simulateurs", "simulateur", "", "simulateur amortissement", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("calculez-votre-taux-endettement") !== -1) {
+
+        staticTag("simulateurs", "simulateur", "", "simulateur endettement", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("calculez-les-frais-notaire-achat-bien-immobilier") !== -1) {
+
+        staticTag("simulateurs", "simulateur", "", "simulateur frais notaire", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("simulation-pret-taux-zero") !== -1) {
+
+        staticTag("simulateurs", "simulateur", "", "simulateur pret taux zero", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("vos-outils") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "outils", "4", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("renegocier-votre-pret-immobilier") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "renegocier", "2", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("votre-pret-immobilier") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "pret immobilier", "2", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("trouver-le-meilleur-pret-votre-achat-immobilier") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "meilleur pret", "2", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("beneficier-regroupement-credits") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "regroupement de credit", "2", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("notre-metier-courtier-en-credit-immobilier") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "notre metier", "2", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("nos-engagements") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "nos engagements", "3", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("societe-ab-courtage-courtier-en-credit-immobilier") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "la societe", "3", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("telecharger-le-guide") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "", "guide", "3", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("nous-contacter") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "contact", "contact", "", "3", "", "", "");
+
+    } else if (window.location.href.indexOf("mentions-legales") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "légales", "mentions legales", "9", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("politique-confidentialite") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "légales", "politique de confidentialite", "9", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("charte-gestion-cookies") !== -1) {
+
+        staticTag("institutionnel", "institutionnel", "légales", "charte de gestion des cookies", "9", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("rejoignez-le-reseau-ab-courtage") !== -1) {
+
+        staticTag("institutionnel", "réseau", "", "rejoindre le reseau", "3", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("deposez-votre-candidature") !== -1) {
+
+            page_cat1 = "reseau";
+            page_cat2 = "candidature";
+            page_name = "candidature";
+            conversion_funnel_name = "candidature";
+            conversion_funnel_step = "1_demande";
+
+            conversion_situation_immo = "";
+            
+            funnelTag(page_cat1, page_cat2, page_name, conversion_funnel_name, conversion_funnel_step, conversion_grc, conversion_numero, conversion_email, conversion_telephone, conversion_rac, conversion_situation_immo);
+
+        jQuery('.webform-submit').click(function() {
+            
+            conversion_email = jQuery('#edit-submitted-email').val();
+            conversion_telephone = jQuery('#edit-submitted-telephone').val();
+            var obj = new Object();
+            obj.ce = conversion_email;
+            obj.ct  = conversion_telephone;
+            obj.csi = conversion_situation_immo;
+            var jsonString = JSON.stringify(obj);
+
+            document.cookie = "tagCo=" + jsonString;
+        });
+
+    } else if (window.location.href.indexOf("node/191/done") !== -1) {
+        
+        cookieTagCo = getCookie("tagCo");
+
+        if (cookieTagCo !== "") {
+            cookieTagCo = JSON.parse(getCookie("tagCo"));
+            conversion_email = cookieTagCo.ce;
+            conversion_telephone = cookieTagCo.ct;
+            conversion_situation_immo = cookieTagCo.csi;
+        } else {
+            conversion_email = "";
+            conversion_telephone = "";
+            conversion_situation_immo = "";
+        }
+
+        conversion_grc = jQuery('#grc').val();
+        conversion_numero = jQuery('#idLead').val();
+
+        page_cat1 = "reseau";
+        page_cat2 = "candidature";
+        page_name = "candidature_validation";
+        conversion_funnel_name = "candidature";
+        conversion_funnel_step = "2_validation";
+        conversion_rac = "";
+
+        funnelTag(page_cat1, page_cat2, page_name, conversion_funnel_name, conversion_funnel_step, conversion_grc, conversion_numero, conversion_email, conversion_telephone, conversion_rac, conversion_situation_immo);
+
+    } else if (window.location.href.indexOf("lexique-du-credit-immobilier") !== -1) {
+
+        staticTag("institutionnel", "lexique", "", "lexique", "3", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("espace-presse") !== -1) {
+
+        staticTag("institutionnel", "presse", "", "espace presse", "3", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites") !== -1 && window.location.href.indexOf("actualites/") === -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/actus-immobilier") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites immobilier", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/pret-immobilier") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites pret immobilier", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/rachat-credit-immobilier") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites rachat credit immobilier", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/taux-interet") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites taux interet", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/patrimoine-et-defiscalisation") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites patrimoine", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/reglementation") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites reglementation", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/architecture-decoration-interieur") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites decoration", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/web-tv") !== -1) {
+
+        staticTag("edito_categorie", "actualites", "", "actualites web tv", "6", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("actualites/") !== -1) {
+
+        var actuName = window.location.href.substr(window.location.href.indexOf("actualites/"));
+
+        var title = document.getElementsByClassName('news-title')[0].innerHTML;
+
+        var authorContainer = document.getElementsByClassName('news-author')[0].innerHTML;
+        var authorIndex = authorContainer.indexOf("par") + 4;
+        var author = authorContainer.substr(authorIndex, authorContainer.length - authorIndex - 1);
+
+        var datePublicationContainer = document.getElementsByClassName('news-meta')[0].innerHTML;
+        var datePublication = datePublicationContainer.substr(datePublicationContainer.indexOf('publié le') + 10, 17);
+        datePublication = datePublication.replace(/\s*$/, "");
+
+        staticTag("edito_categorie", "actualites", "article", actuName, "6", "0", title, author, datePublication);
+
+    } else if (window.location.href.indexOf("trouver-agence-ab-courtage-proximite") !== -1) {
+
+        staticTag("edito_categorie", "agences", "", "trouver une agence", "8", "0", "", "", "");
+
+    } else if (window.location.href.indexOf("/agences/") !== -1) {
+
+        var agenceName = window.location.href.substr(window.location.href.indexOf("/agences/") + 29);
+
+        staticTag("agences", "agences", "agence", "agence/" + agenceName, "8", "0", "", "", "");
+
+    } else if (document.getElementsByClassName('tpl-error404').length > 0) {
+
+        staticTag("technique", "technique", "", "Erreur 404", "14", "0", "", "", "");
+
+    } else if (document.getElementsByClassName('tpl-error403').length > 0) {
+
+        staticTag("technique", "technique", "", "Erreur 403", "14", "0", "", "", "");
+
+    // FUNNELS
+
+    } else if (window.location.href.indexOf("simulation-pret-immobilier") !== -1) {
+
+        funnelTag("funnel", "", "simulation", "", "", "0_simulation", "", "", "", "", "");
+
+    } else if (window.location.href.indexOf("simulation-pret-achat-immobilier/validation") !== -1) {
+
+        cookieTagCo = getCookie("tagCo");
+
+        if (cookieTagCo !== "") {
+
+            cookieTagCo = JSON.parse(getCookie("tagCo"));
+            conversion_email = cookieTagCo.ce;
+            conversion_telephone = cookieTagCo.ct;
+            conversion_situation_immo = cookieTagCo.csi;
+
+        } else {
+
+            conversion_email = "";
+            conversion_telephone = "";
+            conversion_situation_immo = "";
+        }
+
+        conversion_grc = jQuery('#grc').val();
+        conversion_numero = jQuery('#idLead').val();
+
+        page_cat1 = "funnel crédit";
+        page_cat2 = "";
+        page_name = "4. validation";
+        conversion_funnel_name = "credit";
+        conversion_funnel_step = "4_validation";
+        conversion_rac = "";
+
+        conversion_email = jQuery('#edit-email').val();
+        conversion_telephone = jQuery('#telephone').val();
+
+        funnelTag(page_cat1, page_cat2, page_name, conversion_funnel_name, conversion_funnel_step, conversion_grc, conversion_numero, conversion_email, conversion_telephone, conversion_rac, conversion_situation_immo);
+
+    } else if (window.location.href.indexOf("simulation-pret-achat-immobilier") !== -1) {
+
+        page_cat1 = "funnel crédit";
+        page_name = "1. votre projet";
+        conversion_funnel_name = "credit";
+        conversion_funnel_step = "1_demande";
+        conversion_email = "";
+        conversion_telephone = "";
+        conversion_rac = "";
+        conversion_situation_immo = "";
+
+        callTagAchat();
+
+        // ON CLICK MENU
+
+        steps = jQuery('#stepsForm-list li');
+
+        steps.click(function() {
+
+            switch (steps.index(this)) {
+                case 0:
+                    page_name = "1. votre projet";
+                    conversion_funnel_step = "1_demande";
+                    break;
+                case 1:
+                    page_name = "2. votre situation financière";
+                    conversion_funnel_step = "2_situation_financière";
+                    break;
+                case 2:
+                    page_name = "3. vos informations personnelles";
+                    conversion_funnel_step = "3_informations_personnelles";
+                    break;
+            }
+
+            callTagAchat();
+        });
+
+        jQuery('.step1 .next').click(function() {
+            page_name = "2. votre situation financière";
+            conversion_funnel_step = "2_situation_financière";
+            callTagAchat();
+        });
+
+        jQuery('.step2 .next').click(function() {
+            page_name = "3. vos informations personnelles";
+            conversion_funnel_step = "3_informations_personnelles";
+            callTagAchat();
+        });
+
+        jQuery('#submitForm').click(function() {
+            // page_name = "4. validation";
+            // xtpagetype = "2-4-0";
+            // conversion_funnel_step = "4_validation";
+            // callTagAchat();
+
+            var obj = new Object();
+            obj.ce = conversion_email;
+            obj.ct  = conversion_telephone;
+            obj.csi = conversion_situation_immo;
+            var jsonString = JSON.stringify(obj);
+
+            document.cookie = "tagCo=" + jsonString;
+        });
+
+        jQuery('#edit-stade-projet-recherche').click(function() {
+            conversion_situation_immo = "recherche";
+        });
+
+        jQuery('#edit-stade-projet-trouve').click(function() {
+            conversion_situation_immo = "bien trouvé";
+        });
+
+        jQuery('#edit-stade-projet-signe').click(function() {
+            conversion_situation_immo = "compromis signé";
+        });
+
+    } else if (window.location.href.indexOf("simulation-renegociation-pret-immobilier/validation") !== -1 || window.location.href.indexOf("simulation-rachat-credit/validation") !== -1) {
+
+        cookieTagCo = getCookie("tagCo");
+
+        if (cookieTagCo !== "") {
+
+            cookieTagCo = JSON.parse(getCookie("tagCo"));
+            conversion_email = cookieTagCo.ce;
+            conversion_telephone = cookieTagCo.ct;
+            conversion_rac = cookieTagCo.cr;
+
+        } else {
+
+            conversion_email = "";
+            conversion_telephone = "";
+            conversion_situation_immo = "";
+        }
+
+        conversion_grc = jQuery('#grc').val();
+        conversion_numero = jQuery('#idLead').val();
+
+        page_cat1 = "funnel rachat de credit";
+        page_cat2 = "";
+        page_name = "4. validation";
+        conversion_funnel_name = "rachatcredit";
+        conversion_funnel_step = "4_validation";
+        conversion_situation_immo = "";
+
+        funnelTag(page_cat1, page_cat2, page_name, conversion_funnel_name, conversion_funnel_step, conversion_grc, conversion_numero, conversion_email, conversion_telephone, conversion_rac, conversion_situation_immo);
+
+    } else if (window.location.href.indexOf("simulation-renegociation-pret-immobilier") !== -1 || window.location.href.indexOf("simulation-rachat-credit") !== -1) {
+
+        page_cat1 = "funnel rachat de credit";
+        page_name = "1. votre demande";
+        conversion_funnel_name = "rachatcredit";
+        conversion_funnel_step = "1_demande";
+        conversion_email = "";
+        conversion_telephone = "";
+        conversion_rac = "";
+        conversion_situation_immo = "";
+
+        callTagRenego();
+
+        // ON CLICK MENU
+
+        steps = jQuery('#stepsForm-list li');
+
+        steps.click(function() {
+
+            switch (steps.index(this)) {
+                case 0:
+                    page_name = "1. votre demande";
+                    conversion_funnel_step = "1_demande";
+                    break;
+                case 1:
+                    page_name = "2. votre situation financière";
+                    conversion_funnel_step = "2_situation_financière";
+                    break;
+                case 2:
+                    page_name = "3. vos informations personnelles";
+                    conversion_funnel_step = "3_informations_personnelles";
+                    break;
+            }
+
+            callTagRenego();
+        });
+
+        jQuery('.step1 .next').click(function() {
+            page_name = "2. votre situation financière";
+            conversion_funnel_step = "2_situation_financière";
+            callTagRenego();
+        });
+
+        jQuery('.step2 .next').click(function() {
+            page_name = "3. vos informations personnelles";
+            conversion_funnel_step = "3_informations_personnelles";
+            callTagRenego();
+        });
+
+        jQuery('#submitForm').click(function() {
+            // page_name = "4. validation";
+            // xtpagetype = "2-4-0";
+            // conversion_funnel_step = "4_validation";
+            // callTagRenego();
+
+            var obj = new Object();
+            obj.ce = conversion_email;
+            obj.ct  = conversion_telephone;
+            obj.cr = conversion_rac;
+            var jsonString = JSON.stringify(obj);
+
+            document.cookie = "tagCo=" + jsonString;
+        });
+
+        jQuery('#edit-type-pret-immo').click(function() {
+            conversion_rac = "immo";
+        });
+
+        jQuery('#edit-type-pret-conso-immo').click(function() {
+            conversion_rac = "immo conso";
+        });
+
+        jQuery('#edit-type-pret-conso').click(function() {
+            conversion_rac = "conso";
+        });
+
+    } else if (window.location.href.indexOf("abcourtage.com") + 15 === window.location.href.length) {
+
+        staticTag("homepage", "", "", "accueil", "1", "1", "", "", "");
+    }
+
+function staticTag(env_template, page_cat1, page_cat2, page_name, xtn2, xtergo, edito_article, edito_auteur, edito_date_publication) {
+
+	env_work = "preprod";
+	if(window.location.href.indexOf("//web.archive.org/web/20201013074132/https://www.") !== -1) {
+		env_work = "prod";
+	}
+	
+	navig=navigator.userAgent.toLowerCase();
+	
+	if(/(mobi|ipod|phone|blackberry|opera mini|fennec|minimo|symbian|psp|nintendo ds|archos|skyfire|puffin|blazer|bolt|gobrowser|iris|maemo|semc|teashark|uzard)/.test(navig)){device="mobile";} else {device="desktop";}
+	
+    tc_vars = {
+        "env_template": env_template,
+        "env_work": env_work,
+        "env_channel": device,
+        "page_cat1": page_cat1,
+        "page_cat2": page_cat2,
+        "page_name": page_name,
+        "page_error": "",
+        "conversion_funnel_name": "",
+        "conversion_funnel_step": "",
+        "conversion_grc": "",
+        "conversion_numero": "",
+        "conversion_num_devis": "",
+        "conversion_telephone": "",
+        "conversion_email": "",
+        "conversion_rac": "",
+        "conversion_situation_immo": "",
+        "error_code": "",
+        "error_label": "",
+        "xtn2": xtn2,
+        "xtergo": xtergo,
+        "edito_article": edito_article,
+        "edito_auteur": edito_auteur,
+        "edito_date_publication": edito_date_publication,
+        "edito_nb_commentaires": ""
+    };
+}
+
+function funnelTag(page_cat1, page_cat2, page_name, conversion_funnel_name, conversion_funnel_step, conversion_grc, conversion_numero, conversion_email, conversion_telephone, conversion_rac, conversion_situation_immo) {
+
+	env_work = "preprod";
+	if(window.location.href.indexOf("//web.archive.org/web/20201013074132/https://www.") !== -1) {
+		env_work = "prod";
+	}
+	
+	navig=navigator.userAgent.toLowerCase();
+	
+	if(/(mobi|ipod|phone|blackberry|opera mini|fennec|minimo|symbian|psp|nintendo ds|archos|skyfire|puffin|blazer|bolt|gobrowser|iris|maemo|semc|teashark|uzard)/.test(navig)){device="mobile";} else {device="desktop";}
+	
+	
+    tc_vars = {
+        "env_template": "formulaire",
+        "env_work": env_work,
+        "env_channel": device,
+        "page_cat1": page_cat1,
+        "page_cat2": page_cat2,
+        "page_name": page_name,
+        "page_error": "",
+        "conversion_funnel_name": conversion_funnel_name,
+        "conversion_funnel_step": conversion_funnel_step,
+        "conversion_grc": conversion_grc,
+        "conversion_numero": conversion_numero,
+        "conversion_num_devis": "",
+        "conversion_telephone": conversion_telephone,
+        "conversion_email": conversion_email,
+        "conversion_rac": conversion_rac,
+        "conversion_situation": conversion_situation_immo,
+        "error_code": "",
+        "error_label": "",
+        "xtn2": "5",
+        "xtergo": "0",
+        "edito_article": "",
+        "edito_auteur": "",
+        "edito_date_publication": "",
+        "edito_nb_commentaires": ""
+    };
+}
+
+function callTagRenego() {
+
+    conversion_email = jQuery('#edit-email').val();
+    conversion_telephone = jQuery('#edit-telephone').val();
+
+    conversion_grc = "";
+    conversion_numero = "";
+    page_cat2 = "";
+
+    funnelTag(page_cat1, page_cat2, page_name, conversion_funnel_name, conversion_funnel_step, conversion_grc, conversion_numero, conversion_email, conversion_telephone, conversion_rac, conversion_situation_immo);
+}
+
+function callTagAchat() {
+
+    conversion_email = jQuery('#edit-email').val();
+    conversion_telephone = jQuery('#edit-telephone').val();
+
+    conversion_grc = "";
+    conversion_numero = "";
+    page_cat2 = "";
+
+    funnelTag(page_cat1, page_cat2, page_name, conversion_funnel_name, conversion_funnel_step, conversion_grc, conversion_numero, conversion_email, conversion_telephone, conversion_rac, conversion_situation_immo);
+}
+
+function getCookie(cname) {
+
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+
+    for(var i = 0; i <ca.length; i++) {
+
+        var c = ca[i];
+
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+
+    return "";
+}
+
+}
+/*
+     FILE ARCHIVED ON 07:41:32 Oct 13, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:38:00 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 110.886
+  exclusion.robots: 0.159
+  exclusion.robots.policy: 0.148
+  RedisCDXSource: 3.844
+  esindex: 0.01
+  LoadShardBlock: 79.525 (3)
+  PetaboxLoader3.datanode: 130.294 (4)
+  CDXLines.iter: 22.916 (3)
+  load_resource: 133.08
+  PetaboxLoader3.resolve: 72.706
+*/

@@ -1,0 +1,50 @@
+@media (max-width: 725px) {
+  #widget-immodvisor {
+    margin-bottom: -220px;
+  }
+}
+
+@media (max-width: 1550px) and (min-width: 726px) {
+  #widget-immodvisor {
+    /*margin-bottom: -250px;*/
+    position: relative;
+    width: 250px;
+    height: 286px;
+    float: right;
+    bottom: 285px;
+    margin-right: -20px;
+  }
+  .agency-title {
+    margin-top: 20px;
+    margin-bottom: 160px;
+  }
+}
+
+@media (min-width: 1551px) {
+  #widget-immodvisor {
+    position: fixed;
+    right: 0px;
+    top: 200px;
+  }
+}
+/*
+     FILE ARCHIVED ON 07:42:01 Oct 13, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:37:55 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.016
+  exclusion.robots.policy: 0.186
+  PetaboxLoader3.datanode: 107.776 (4)
+  captures_list: 177.533
+  load_resource: 250.262
+  CDXLines.iter: 20.004 (3)
+  LoadShardBlock: 132.102 (3)
+  cdx.remote: 0.111
+  exclusion.robots: 0.199
+  PetaboxLoader3.resolve: 232.993
+*/

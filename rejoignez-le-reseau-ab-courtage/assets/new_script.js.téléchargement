@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>abcourtage</title>
+	<link rel="stylesheet" href="/css/global.css">
+</head>
+<body>
+
+	<div id="page">
+		<img id="logo" src="/img/ab.png" alt="abcourtage">
+
+		<content>
+			<header>
+				<p>
+					abcourtage est une société du Groupe ASSU 2000, courtier expert en assurance (auto, moto, habitation) et en crédit (crédit immobilier, regroupement de crédits) auprès des particuliers depuis plus de 45 ans.
+				</p>
+
+			</header>
+			<p class="content">
+				abcourtage a été victime <strong>d'un acte informatique malveillant.</strong> Par mesure de précaution et à titre conservatoire, nous avons pris la décision de suspendre momentanément l'accès à nos systèmes informatiques, entraînant des difficultés d’accès au site abcourtage.com
+			</p>
+			<p>
+				Nous travaillons à la <strong>résolution rapide de cet incident.</strong>
+			</p>
+		
+			<p class="signature">
+				<strong>Les équipes abcourtage</strong>
+			</p>
+		</content>
+	</div>
+	
+</body>
+</html><!--
+     FILE ARCHIVED ON 10:20:59 Jul 09, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:39:03 Jul 20, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  LoadShardBlock: 236.702 (3)
+  captures_list: 269.861
+  RedisCDXSource: 0.875
+  esindex: 0.013
+  CDXLines.iter: 27.445 (3)
+  PetaboxLoader3.resolve: 31.976
+  exclusion.robots: 0.208
+  PetaboxLoader3.datanode: 542.555 (4)
+  exclusion.robots.policy: 0.193
+  load_resource: 341.693
+-->
