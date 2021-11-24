@@ -1,0 +1,17 @@
+section.header-hp .container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25rem;
+    align-items: center;
+    padding: 13rem 0;
+    align-content: center;
+}
+
+section.header-hp .container .content-contact p {
+    padding: 0;
+}
+
+section.header-hp .last-paragraph a {
+    text-decoration: underline;
+    color: #EC6607;
+}
