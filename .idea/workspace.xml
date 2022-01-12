@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0aa2b0-9ab6-46a2-b3df-14e7b9af66c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/logo_vilavi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact-franchise/assets/logo_vilavi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact/assets/logo_vilavi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mentions-legales/assets/logo_vilavi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/probleme-technique/assets/logo_vilavi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rejoignez-le-reseau-ab-courtage/assets/logo_vilavi.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-franchise/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-franchise/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentions-legales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentions-legales/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/probleme-technique/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/probleme-technique/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rejoignez-le-reseau-ab-courtage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rejoignez-le-reseau-ab-courtage/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +50,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\abcourtage\rejoignez-le-reseau-ab-courtage\assets" />
+      <recent name="C:\wamp64\www\abcourtage\probleme-technique\assets" />
+      <recent name="C:\wamp64\www\abcourtage\mentions-legales\assets" />
+      <recent name="C:\wamp64\www\abcourtage\contact-franchise\assets" />
+      <recent name="C:\wamp64\www\abcourtage\contact\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\abcourtage\contact\assets" />
       <recent name="C:\wamp64\www\abcourtage\abcourtage_files\js" />
@@ -55,6 +74,9 @@
       <updated>1637678668469</updated>
       <workItem from="1637678669649" duration="19886000" />
       <workItem from="1640187814462" duration="216000" />
+      <workItem from="1640188047409" duration="4852000" />
+      <workItem from="1641922065601" duration="1045000" />
+      <workItem from="1642002878545" duration="427000" />
     </task>
     <servers />
   </component>
