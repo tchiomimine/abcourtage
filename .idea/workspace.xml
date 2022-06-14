@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce0aa2b0-9ab6-46a2-b3df-14e7b9af66c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/logo_vilavi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact-franchise/assets/logo_vilavi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact/assets/logo_vilavi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mentions-legales/assets/logo_vilavi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/probleme-technique/assets/logo_vilavi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rejoignez-le-reseau-ab-courtage/assets/logo_vilavi.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-franchise/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact-franchise/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mentions-legales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentions-legales/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/probleme-technique/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/probleme-technique/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rejoignez-le-reseau-ab-courtage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rejoignez-le-reseau-ab-courtage/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
