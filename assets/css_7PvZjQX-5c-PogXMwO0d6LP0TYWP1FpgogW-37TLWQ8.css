@@ -917,6 +917,7 @@ section.blocksLarge {
     border-bottom: 1px solid;
     padding-top: 15px;
     color: #EC6607;
+    margin:0 auto;
 }
 
 #home-page section h2 span {
@@ -941,10 +942,15 @@ section.intro-hp .wrapper p:last-of-type {
 
 .container-intro {
     position: relative;
+    display: grid;
 }
 
 .content-intro {
     max-width: 50%;
+    margin:0 auto;
+    max-width: 100% !important;
+    grid-row: 2 / 2;
+    text-align: center;
 }
 
 .glass {
